@@ -22,7 +22,7 @@ function gameFlash(btn) {
 
     setTimeout(function (){
         btn.classList.remove("flash");
-    }, 250);
+    }, 400);
 }
 
 function userFlash(btn) {
@@ -30,7 +30,7 @@ function userFlash(btn) {
 
     setTimeout(function (){
         btn.classList.remove("userflash");
-    }, 250);
+    }, 200);
 }
 
 function levelUp(){
@@ -65,7 +65,7 @@ function checkAns(idx) {
 
         h2.style.color = "white";
         h2.innerHTML = `GAME OVER! Your score was <b>${level}</b> <br>
-        Press any key to start again!`;
+        Press Start key to start again!`;
         document.querySelector("body").style.backgroundColor = "red";
         document.querySelector("h1").style.color = "white";
         document.querySelector("h1").style.backgroundColor = "red";
