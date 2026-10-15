@@ -1,2 +1,2 @@
 # readme file added at last
-i am after a long break for learning basic dsa. 
+learning git using terminal git status, git commit -m , git push origin main etc.
